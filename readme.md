@@ -26,4 +26,8 @@ tasklist > com4:
 
 I had to enable the usbserial module with `sudo modprobe usbserial`
 
+Set up port speed:
+
+`stty -F /dev/ttyUSB0 115200`
+
 Then redirect some output to `/dev/ttyUSB0`
